@@ -180,13 +180,6 @@ async def convert_markdown_batch(request: BatchRequest):
         total_converted=len([r for r in results if not r.metadata.get("error")])
     )
 
-@app.get("/preview/{conversion_id}")
-async def preview_conversion(conversion_id: str):
-    """
-    Preview a previously converted document (placeholder for future implementation).
-    """
-    return {"message": "Preview feature coming soon", "conversion_id": conversion_id}
-
 @app.get("/extensions")
 async def get_available_extensions():
     """
@@ -224,7 +217,6 @@ async def root():
             "/convert": "POST - Convert markdown text to HTML",
             "/convert/file": "POST - Convert uploaded markdown file to HTML",
             "/convert/batch": "POST - Convert multiple markdown documents",
-            "/preview/{id}": "GET - Preview converted document",
             "/extensions": "GET - List available extensions",
             "/health": "GET - Health check",
             "/": "GET - This information"
