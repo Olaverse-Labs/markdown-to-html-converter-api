@@ -1,5 +1,7 @@
 # 🚀 Advanced Markdown to HTML Converter API
 
+[![Olaverse API](https://img.shields.io/badge/Olaverse-API%20Doc-blue?style=flat-square)](https://www.olaverse.co.uk/markdown-html-api) [![Try on Vibeland](https://img.shields.io/badge/Vibeland-Try%20Live-orange?style=flat-square)](https://www.vibeland.co.uk/tools/markdown)
+
 A powerful, feature-rich API for converting Markdown text to HTML using Python FastAPI. Built with modern web standards and designed for both simple conversions and enterprise-level document processing.
 
 ## ✨ Key Features & Improvements
